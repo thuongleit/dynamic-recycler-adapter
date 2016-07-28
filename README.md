@@ -1,0 +1,1 @@
+# recycler-dynamic-adapter
