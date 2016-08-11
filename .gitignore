@@ -44,10 +44,3 @@ captures/
 .gitignore
 /local.properties
 /keystore.properties
-app/
-build.gradle
-gradle.properties
-gradle/
-gradlew
-gradlew.bat
-settings.gradle
