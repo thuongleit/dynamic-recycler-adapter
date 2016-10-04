@@ -6,10 +6,10 @@ import android.util.Log;
 import me.thuongle.adaptersample.BR;
 import me.thuongle.adaptersample.data.Task;
 import me.thuongle.adaptersample.data.TaskRepository;
-import me.thuongle.recycleradapter.handler.ChildItemsClickBinder;
-import me.thuongle.recycleradapter.handler.ClickHandler;
-import me.thuongle.recycleradapter.handler.ItemTouchHandler;
-import me.thuongle.recycleradapter.handler.LongClickHandler;
+import me.thuongle.dynamicadapter.handler.ChildItemsClickBinder;
+import me.thuongle.dynamicadapter.handler.ClickHandler;
+import me.thuongle.dynamicadapter.handler.ItemTouchHandler;
+import me.thuongle.dynamicadapter.handler.LongClickHandler;
 
 import java.util.Arrays;
 import java.util.List;

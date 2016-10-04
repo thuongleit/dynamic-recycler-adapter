@@ -1,0 +1,59 @@
+apply plugin: 'com.android.library'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'dynamic-recycler-adapter'
+
+    publishedGroupId = 'me.thuongle'
+    libraryName = 'DynamicRecyclerAdapter'
+    artifact = 'dynamic-recycler-adapter'
+
+    libraryDescription = 'Dynamic RecyclerView Adapter using Android Data Binding'
+
+    siteUrl = 'https://github.com/thuongleit/dynamic-recycler-adapter'
+    gitUrl = 'https://github.com/thuongleit/dynamic-recycler-adapter.git'
+
+    libraryVersion = '0.2.0'
+
+    developerId = 'thuongleit'
+    developerName = 'Thuong Le'
+    developerEmail = 'thuongle.it@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.1"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "0.2.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+
+    testCompile 'junit:junit:4.12'
+}
+
+// Place it at the end of the file
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

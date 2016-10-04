@@ -6,7 +6,7 @@
 
         <import type="java.util.List" />
 
-        <import type="me.thuongle.recycleradapter.handler.ClickHandler" />
+        <import type="me.thuongle.dynamicadapter.handler.ClickHandler" />
 
         <variable
             name="item"

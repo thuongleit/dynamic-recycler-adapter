@@ -7,7 +7,7 @@ import android.databinding.ObservableList;
 
 import me.thuongle.adaptersample.BR;
 import me.thuongle.adaptersample.data.Task;
-import me.thuongle.recycleradapter.handler.ItemBinder;
+import me.thuongle.dynamicadapter.handler.ItemBinder;
 
 import java.util.List;
 
