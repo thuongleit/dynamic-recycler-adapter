@@ -6,7 +6,7 @@ android {
     buildToolsVersion "24.0.1"
 
     defaultConfig {
-        applicationId "com.jokotech.adaptersample"
+        applicationId "me.thuongle.adaptersample"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
