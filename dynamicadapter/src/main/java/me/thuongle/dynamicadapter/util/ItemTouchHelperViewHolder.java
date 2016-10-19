@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package me.thuongle.dynamicadapter;
+package me.thuongle.dynamicadapter.util;
 
 public interface ItemTouchHelperViewHolder {
 

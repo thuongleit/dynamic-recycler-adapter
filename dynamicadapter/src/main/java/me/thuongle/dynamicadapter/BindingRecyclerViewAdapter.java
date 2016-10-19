@@ -11,15 +11,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.lang.ref.WeakReference;
+import java.util.List;
+
 import me.thuongle.dynamicadapter.handler.ChildItemsClickBinder;
 import me.thuongle.dynamicadapter.handler.ClickHandler;
 import me.thuongle.dynamicadapter.handler.ItemBinder;
 import me.thuongle.dynamicadapter.handler.ItemTouchHandler;
 import me.thuongle.dynamicadapter.handler.LongClickHandler;
-import me.thuongle.dynamicadapter.handler.OnItemTouchListener;
-
-import java.lang.ref.WeakReference;
-import java.util.List;
+import me.thuongle.dynamicadapter.util.ItemTouchHelperViewHolder;
+import me.thuongle.dynamicadapter.util.OnItemTouchListener;
 
 public class BindingRecyclerViewAdapter<T> extends RecyclerView.Adapter<BindingRecyclerViewAdapter.ViewHolder> implements View.OnClickListener, View.OnLongClickListener, OnItemTouchListener, RecyclerAdapterInterface<T> {
     private static final int ITEM_MODEL = -124;

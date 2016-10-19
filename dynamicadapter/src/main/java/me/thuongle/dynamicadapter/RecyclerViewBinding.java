@@ -4,27 +4,31 @@ import android.databinding.BindingAdapter;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 
+import java.util.List;
+
 import me.thuongle.dynamicadapter.handler.ChildItemsClickBinder;
 import me.thuongle.dynamicadapter.handler.ClickHandler;
 import me.thuongle.dynamicadapter.handler.ItemBinder;
 import me.thuongle.dynamicadapter.handler.ItemTouchHandler;
 import me.thuongle.dynamicadapter.handler.LongClickHandler;
-import me.thuongle.dynamicadapter.handler.OnItemTouchListener;
+import me.thuongle.dynamicadapter.util.ItemTouchHelperCallback;
+import me.thuongle.dynamicadapter.util.OnItemTouchListener;
 
-import java.util.List;
-
+/*
+ * Data Binding Binder class 
+ */
 public class RecyclerViewBinding {
 
     @SuppressWarnings("unchecked")
     @BindingAdapter(value = {"itemBinder", "items", "swipeEnabled", "clickHandler", "longClickHandler", "itemTouchHandler", "childItemsClickBinder"}, requireAll = false)
-    public static <T> void setItemViewBinder(RecyclerView recyclerView,
-                                             ItemBinder itemBinder,
-                                             List<T> items,
-                                             Boolean swipeEnabled,
-                                             ClickHandler<T> clickHandler,
-                                             LongClickHandler<T> longClickHandler,
-                                             ItemTouchHandler<T> itemTouchHandler,
-                                             ChildItemsClickBinder<T> childItemsClickBinder) {
+    public static <T> void setBinder(RecyclerView recyclerView,
+                                     ItemBinder itemBinder,
+                                     List<T> items,
+                                     Boolean swipeEnabled,
+                                     ClickHandler<T> clickHandler,
+                                     LongClickHandler<T> longClickHandler,
+                                     ItemTouchHandler<T> itemTouchHandler,
+                                     ChildItemsClickBinder<T> childItemsClickBinder) {
 
         if (itemBinder == null) {
             throw new IllegalArgumentException("itemViewBinder must not be null");

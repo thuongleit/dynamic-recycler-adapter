@@ -1,5 +1,5 @@
 
-package me.thuongle.dynamicadapter;
+package me.thuongle.dynamicadapter.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -10,9 +10,6 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.View;
-
-import me.thuongle.dynamicadapter.handler.OnItemTouchListener;
-import me.thuongle.dynamicadapter.util.Utils;
 
 public class ItemTouchHelperCallback extends ItemTouchHelper.Callback {
 

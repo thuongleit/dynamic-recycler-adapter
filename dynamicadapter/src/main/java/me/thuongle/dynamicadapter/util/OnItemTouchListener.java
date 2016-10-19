@@ -1,4 +1,4 @@
-package me.thuongle.dynamicadapter.handler;
+package me.thuongle.dynamicadapter.util;
 
 import android.view.View;
 
