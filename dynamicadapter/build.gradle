@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/thuongleit/dynamic-recycler-adapter'
     gitUrl = 'https://github.com/thuongleit/dynamic-recycler-adapter.git'
 
-    libraryVersion = '0.2.0'
+    libraryVersion = '1.0.0'
 
     developerId = 'thuongleit'
     developerName = 'Thuong Le'
@@ -32,7 +32,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
-        versionName "0.2.0"
+        versionName "1.0.0"
     }
 
     buildTypes {
