@@ -23,7 +23,7 @@ Add library as Gradle dependency
     }
 ```
 
-![demo](https://github.com/thuongleit/dynamic-recycler-adapter/blob/master/demo.gif)
+![demo](https://github.com/thuongleit/dynamic-recycler-adapter/blob/master/art/demo.gif)
 
 ## Features
 - [x] Easy and flexible to create recycler view and handle events by Android Data Binding. (Don't deal with adapter anymore).
