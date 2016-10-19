@@ -7,11 +7,11 @@
 
         <variable
             name="presenter"
-            type="com.jokotech.adaptersample.view.main.PresenterImpl" />
+            type="me.thuongle.adaptersample.view.main.PresenterImpl" />
 
         <variable
             name="viewModel"
-            type="com.jokotech.adaptersample.view.main.MainViewModel" />
+            type="me.thuongle.adaptersample.view.main.MainViewModel" />
 
     </data>
 
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        tools:context=".view.main.MainActivity">
+        tools:context="me.thuongle.adaptersample.view.main.MainActivity">
 
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"

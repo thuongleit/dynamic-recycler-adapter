@@ -6,11 +6,11 @@
 
         <import type="java.util.List" />
 
-        <import type="com.jokotech.recycleradapter.handler.ClickHandler" />
+        <import type="me.thuongle.dynamicadapter.handler.ClickHandler" />
 
         <variable
             name="item"
-            type="com.jokotech.adaptersample.data.Task" />
+            type="me.thuongle.adaptersample.data.Task" />
 
         <variable
             name="childHandlers"
